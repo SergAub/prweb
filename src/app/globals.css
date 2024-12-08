@@ -19,3 +19,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.button {
+  @apply text-foregroundLight bg-main hover:bg-hover active:bg-click px-10 py-3 shadow-md;
+}
